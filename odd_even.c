@@ -1,18 +1,19 @@
-//Develop a program to check whether a number is even or odd.
 #include <stdio.h>
 #include <conio.h>
 void main()
 {
-    int n;
-    printf("Enter a number: ");
-    scanf("%d",&n);
-    if(n%2==0)
+    int num;
+
+    printf("Enter an integer: ");
+    scanf("%d", &num);
+
+    if (num % 2 == 0) 
     {
-        printf("%d is even",n);
-    }
-    else
+        printf("%d is even.\n", num);
+    } 
+    else 
     {
-        printf("%d is odd",n);
+        printf("%d is odd.\n", num);
     }
 
     getch();
